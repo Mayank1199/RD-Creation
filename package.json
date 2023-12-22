@@ -1,0 +1,16 @@
+{
+  "name": "rd-creation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite"
+  },
+  "keywords": [],
+  "author": "Mayank Prajapati",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "vite": "^5.0.7"
+  }
+}

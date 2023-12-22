@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.logo{
+  width: 100px;
+  height: 65px;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 90vh;
+}
+
+.about-para {
+  text-align: justify;
+}
+
+.card-text {
+  font-size: 15px;
+}
+
+.center-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .carousel-item img {
+    width: 100%;
+    height: 60vh;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+}
