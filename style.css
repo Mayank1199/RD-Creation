@@ -38,10 +38,6 @@ body {
   }
 }
 
-/* .about-para {
-  text-align: justify;
-} */
-
 .card-text {
   font-size: 15px;
 }
@@ -72,6 +68,18 @@ body {
 
 .text {
   color: #1f86cc;
+}
+
+.card-img {
+  overflow: hidden;
+  border-bottom-left-radius: 0% !important;
+  border-bottom-right-radius: 0% !important;
+}
+
+.card-img img:hover {
+  transform: scale(1.1);
+  transition: all 0.8s ease-in-out;
+  cursor: pointer;
 }
 
 @media (max-width: 820px) {
